@@ -1,5 +1,5 @@
 {% set name = "yamlns" %}
-{% set version = "0.10.0" %}
+{% set version = "0.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/yamlns-{{ version }}.tar.gz
-  sha256: 4b5a63127b904c0d5ec4e8883d7efbc30c6a0ae09dcfbe4627209ae62af100b3
+  sha256: d5cad27ada26d0872c4124c87601a71150e75f699ff347f53f1c2ec3b329de49
 
 build:
   noarch: python
