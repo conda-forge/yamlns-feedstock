@@ -20,7 +20,7 @@ requirements:
     - python {{ python_min }}
     - setuptools >=20.4
   run:
-    - python >={{ python_min {{
+    - python >={{ python_min }}
     - pytest
     - pyyaml >=5.3.1
     - setuptools >=20.4
